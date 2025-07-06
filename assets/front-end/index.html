@@ -24,12 +24,20 @@
       </section>
 
       <section class="text-container">
-        <form action="cadastro.html" method="get" autocomplete="off">
-          <p>
-            <label for="ilink">Link:</label><br>
-            <input type="url" name="link" id="ilink"/>
-          </p>
+        <form action="cadastro.html" method="post" autocomplete="off">
+
+            <p>
+              <input class="input-url" type="url" name="link" id="ilink" placeholder=" Cole aqui..." required/>
+            </p> 
+            
+             <p id="buttons-input">
+                <input type="submit" value="Encurtar" >
+                <input type="reset" value="Nova URL" >
+             </p>
+            
         </form>
+
+          
       </section>
     </main>
   </body>
